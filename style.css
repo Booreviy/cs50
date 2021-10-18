@@ -248,10 +248,35 @@ hr {
   }
 
   .question input {
-    width: 90%;
-    height: 45px;
-    font-size: 1.5em;
+    width: 70%;
+    height: 36px;
+    font-size: 1.2em;
   }
+
+  .sub input,
+  .sub button {
+    font-size: 1.3em;
+  }
+
+  .ext-search {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .logo .subLogo {
+    width: 150px;
+    height: 20px;
+    font-size: 16px;
+    bottom: -10px;
+    left: -20px;
+  }
+
+  .logo-small {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
 
   .sub input,
   .sub button {
@@ -274,9 +299,7 @@ hr {
   .logo-small {
     font-size: 3em;
   }
-}
 
-@media screen and (max-width: 500px) {
   .items {
     display: grid;
     grid-template-rows: repeat(auto-fill, 30px);
@@ -299,5 +322,11 @@ hr {
   .item-input {
     width: 100%;
     margin: 0 0 10px 0;
+  }
+
+  .question,
+  .question input {
+    width: 100%;
+    margin: 0 auto;
   }
 }
