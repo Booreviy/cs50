@@ -234,6 +234,7 @@ hr {
   font-weight: bold;
 }
 
+
 @media screen and (max-width: 800px) {
   .items {
     display: grid;
