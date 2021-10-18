@@ -277,7 +277,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .items {
     display: grid;
     grid-template-rows: repeat(auto-fill, 30px);
