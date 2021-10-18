@@ -45,7 +45,7 @@ span {
 
 .logo span {
   font-size: 5em;
-  letter-spacing: -0.2em;
+  letter-spacing: -0.1em;
 }
 
 .eR {
@@ -58,7 +58,6 @@ span {
   width: 150px;
   height: 20px;
   font-size: 11px;
-  letter-spacing: 0em;
   display: inline-block;
   position: absolute;
   bottom: -10px;
